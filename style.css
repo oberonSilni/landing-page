@@ -1,0 +1,31 @@
+body{
+background-color: #1F2937;
+color:white;
+}
+
+#header{
+    display:flex;
+    justify-content: space-between;
+   
+   
+}
+
+#header-logo{
+    flex:1;
+    justify-content: center;
+    text-align: center;
+}
+
+#nav-bar{
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    flex: 1;
+
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
