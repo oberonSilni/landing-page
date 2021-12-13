@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
 body{
 background-color: #1F2937;
 color:white;
+font-family:Roboto;
+margin:0;
+padding:0;
 }
 
 #header{
@@ -109,6 +116,7 @@ color:white;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    padding-bottom:10vh;
 
 }
 
@@ -116,13 +124,108 @@ color:white;
     display:flex;
     justify-content: center;
     gap:7vh;
-    padding-bottom:10vh;
+    
 }
 
 
 .squares{
 height:20vh;
 width:20vh;
+border-radius:20px;
 border:5px solid #3882F6;
-border-radius: 10px;
+margin:0;
+
+}
+
+.square-text{
+    display:flex;
+    flex-direction: column;
+}
+
+.square-text p{
+    width:20vh;
+font-size:18px;
+text-align: center;
+font-weight: lighter;
+margin:1vh;
+}
+
+
+#quote{
+background-color:#E5E7EB;
+font-size:36px;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items:center;
+color:#1F2937;
+padding:10vh;
+margin:0;
+}
+
+#quoteP{
+font-family: 'Roboto', sans-serif;
+font-style:italic;
+width:100vh;
+font-weight: 100;
+text-align:center;
+margin:0;
+
+}
+
+
+#thor{
+text-align:right;
+font-weight: bolder;
+font-size: 20px;
+margin:0;
+width:100vh;
+}
+
+#action-wrapper{
+display:flex;
+background-color: white;
+margin:0;
+height:40vh;
+justify-content: center;
+align-items: center;
+}
+
+
+#call, #call-btn{
+    background-color:#3882F6;
+    border-radius: 15px;
+    color:white;
+}
+
+#call{
+height:15vh;
+width:100vh;
+display:flex;
+align-items: center;
+justify-content: center;
+gap:10vh;
+}
+
+#call h2, #call p{
+    margin:0;
+}
+
+#call-btn{
+    border:2px solid #fbfbfc;
+    padding:1vh;
+    font-size: 18px;
+    width:15vh;
+    height:5vh;
+}
+
+
+
+
+#copyright{
+    display:flex;
+    background-color: #1F2937;
+    height:10vh;
+    justify-content: center;
+    align-items: center;
 }
